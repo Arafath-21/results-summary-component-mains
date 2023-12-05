@@ -1,0 +1,114 @@
+.container{
+    width: 736px;
+    height: 512px;    
+    margin: 150px auto;
+    background: $White;
+    border-radius: 32px;
+}
+.result{
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 32px;
+    h2{
+        padding-top: 38px;
+    }
+    .over-circle{
+        padding-top: 35px;
+        .circle{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+            font-size: 72px;
+            font-weight: 800;
+            line-height: 72px;
+            margin: 0 auto;
+            color: $White;
+            padding-top: 50px;
+    
+            p{
+                padding-top: 1px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }        
+    }
+    .greeting{
+        padding-top: 20px;
+    }
+    .description{
+        p{  
+          font-weight: 500;
+          padding-top: 50px;
+          padding-bottom: 45px;
+        }
+    }
+}
+.result-1{
+    background-color: $White;
+    border-radius: 0 32px 32px 0;
+
+    h2{
+        padding-top: 38px;   
+        padding-bottom: 28px;     
+    }
+    .icons{
+        .icons-gtn{
+            padding-bottom: 20px;
+            .reaction{
+                background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%),#F55;
+                color: $light-red;
+                font-family: var(--font-family);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;     
+                border-radius: 12px;
+            }
+            .memory{
+                background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                color: #FFB21E;
+                border-radius: 12;
+                font-family: var(--font-family);                
+            }
+            .verbal{
+                background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+                color: #00BB8F;
+                font-family: var(--font-family);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;                                
+            }
+            .visual{
+                background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+                color: #1125D6;
+                font-family: var(--font-family);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;                
+            }
+        }
+    }
+    .final-btn{
+        border-radius: 128px;
+        color: $White;
+        font-family: var(--font-family);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;            
+        text-align: center;
+        margin-top: 6px;
+        background-color: $Dark-gray-blue;
+
+        &:hover{
+            background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+        }
+    }    
+}
+
